@@ -19,7 +19,7 @@ a {
 
 /* ШАПКА*/
 .top {
-  background-image: url(topback.jpg);
+  background-image: url(main-topback.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
