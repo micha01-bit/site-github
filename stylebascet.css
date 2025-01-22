@@ -19,7 +19,7 @@ a {
 }
 
 .top {
-  background-image: url(img.bascet/topbascet.jpg);
+  background-image: url(bascet-topbascet.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -199,7 +199,7 @@ a {
   background: rgb(247, 246, 246);
   border: transparent;
   padding-right: 10px;
-  background-image: url(img.bascet/vector.svg), url(img.bascet/frame.svg);
+  background-image: url(bascet-vector.svg), url(bascet-frame.svg);
   background-position: right 15px top 15px, right 10px bottom 10px;
   background-repeat: no-repeat;
 }
