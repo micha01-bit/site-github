@@ -19,7 +19,7 @@ a {
 
 /* ШАПКА*/
 .top {
-  background-image: url(img.main/topback.jpg);
+  background-image: url(topback.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -176,19 +176,19 @@ a {
   grid-column: span 6;
 }
 .for__item_1 {
-  background-image: url(img.main/rest.jpg);
+  background-image: url(rest.jpg);
 }
 .for__item_2 {
-  background-image: url(img.main/job.jpg);
+  background-image: url(job.jpg);
 }
 .for__item_3 {
-  background-image: url(img.main/kitchen.jpg);
+  background-image: url(kitchen.jpg);
 }
 .for__item_4 {
-  background-image: url(img.main/children.jpg);
+  background-image: url(children.jpg);
 }
 .for__item_5 {
-  background-image: url(img.main/bathroom.jpg);
+  background-image: url(bathroom.jpg);
 }
 
 /*ЦЕНТРАЛЬНЫЕ БЛОКИ*/
