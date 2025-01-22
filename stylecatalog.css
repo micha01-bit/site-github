@@ -22,7 +22,7 @@ a {
 
 /*ШАПКА*/
 .top {
-  background-image: url(topcatalog.jpg);
+  background-image: url(cat-topcatalog.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -156,7 +156,7 @@ a {
   font-weight: 400;
   line-height: 20px;
   background-color: transparent;
-  background-image: url(custom-icon.png);
+  background-image: url(cat-custom-icon.png);
   background-repeat: no-repeat;
   background-position: center right 16px;
   cursor: pointer;
@@ -209,14 +209,14 @@ a {
 }
 
 .details .summary::after {
-  content: url(custom-icon.png);
+  content: url(cat-custom-icon.png);
   background-repeat: no-repeat;
   background-position: left;
   padding-left: 10px;
 }
 
 .details[open] > .summary::after {
-  content: url(custom-icon.png);
+  content: url(cat-custom-icon.png);
   background-repeat: no-repeat;
   background-position: left;
   padding-left: 10px;
@@ -326,7 +326,7 @@ a {
 }
 .radio__input:checked + .radio__label::before {
   border-color: #000;
-  background-image: url(vector.png);
+  background-image: url(cat-vector.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -431,7 +431,7 @@ a {
   background-color: #fff;
 }
 .checkbox__input:checked + .checkbox__label::before {
-  background-image: url(vector.png);
+  background-image: url(cat-vector.png);
   background-repeat: no-repeat;
   background-position: center;
   border-color: #000;
@@ -493,7 +493,7 @@ a {
   border-color: #ff1493;
 }
 .checkbox__input:checked + .checkbox__label--black::before, .checkbox__input:checked + .checkbox__label--blue::before, .checkbox__input:checked + .checkbox__label--purple::before {
-  background-image: url(vector-white.svg);
+  background-image: url(cat-vector-white.svg);
 }
 
 /*КАТАЛОГ ТОВАРОВ*/
