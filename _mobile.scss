@@ -239,10 +239,20 @@
     .center {
         padding-left: 16px; 
         padding-right: 16px;
-    }  
+    } 
+
+    .header { 
+        padding-top: 32px; 
+        border-bottom: none; 
+        padding bottom: 0px; 
+    }
      
     .top__title {
-        max-width: 343px;
+        max-width: 343px; 
+         font-size: 48px; 
+        line-height: 59px; 
+        text-align: center;  
+        margin-top: 82px;
     } 
      
     .for {
