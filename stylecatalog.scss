@@ -168,14 +168,12 @@
       background-repeat: no-repeat;
       background-position: center right 16px; 
       cursor: pointer; 
-      transition: all 1s;
     }  
      
     &__filter:hover {
       color: black; 
       border: 1px solid #000000;  
-      background-color: lightblue;
-      transform: scale(1.1); 
+      background-color: lightblue; 
     }
     
     &__filter_select {
@@ -192,15 +190,13 @@
     border: 1px solid rgb(196, 196, 196);
     border-radius: 20px; 
     cursor: pointer; 
-    z-index: 1; 
-    transition: all 1s; 
+    z-index: 1;  
    }  
     
    .details:hover {
     color: black; 
     border: 1px solid #000000;  
-    background-color: lightblue;
-    transform: scale(1.1); 
+    background-color: lightblue; 
   }
    
    .summary {    
