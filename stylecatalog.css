@@ -862,17 +862,15 @@ a {
     background: rgb(247, 246, 246);
     height: 556px;
     grid-column: span 6;
-  }
-  .bascet__form-title {
-    align-items: flex-start;
-    padding-left: 40px;
-  }
+  } 
+  
   .bascet__form-subtotal {
-    align-content: flex-start;
-    padding-left: 55px;
-  }
+    display: flex;
+    align-content: center;
+  } 
+  
   .bascet__button-right {
-    margin-left: 30px;
+    margin-left: 45px;
   }
   .bascet__button2-left {
     background-color: rgb(0, 0, 0);
@@ -921,15 +919,34 @@ a {
     background: rgb(247, 246, 246);
     height: 556px;
     grid-column: span 6;
+  } 
+
+  .bascet__form-title {
+    display: flex; 
+    flex-direction: row;
+    padding-left: 40px;
+  } 
+
+  .bascet__form-subtotal {
+    display: flex; 
+    align-content: flex-start;
+    padding-left: 55px;
   }
+  
   .bascet__button2-left {
     background-color: rgb(0, 0, 0);
     color: #fff;
+  } 
+
+  .bascet__button-right {
+    margin-left: 28px;
   }
+  
   .bottom-box {
     padding-top: 39px;
   }
-}
+} 
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -937,7 +954,8 @@ a {
   }
   .header {
     padding-top: 32px;
-    border-bottom: none;
+    border-bottom: none; 
+    padding-bottom: 0px;
   }
   .header__input {
     display: none;
@@ -958,7 +976,7 @@ a {
     font-size: 48px;
     line-height: 59px;
     text-align: center;
-    margin-top: 29px;
+    margin-top: 82px;
   }
   .top__text {
     font-size: 16px;
@@ -1007,7 +1025,12 @@ a {
   .bascet__form-subtotal {
     align-content: flex-start;
     padding-left: 55px;
+  } 
+
+   .bascet__item {
+    padding-top: 18px;
   }
+  
   .bascet__img {
     display: none;
   }
@@ -1037,10 +1060,6 @@ a {
     margin-bottom: 16px;
     font-size: 12px;
     line-height: 15px;
-  }
-  .bascet__form-title {
-    align-items: flex-start;
-    padding-left: 45px;
   }
   .product {
     width: 343px;
@@ -1121,9 +1140,20 @@ a {
   .center {
     padding-left: 16px;
     padding-right: 16px;
-  }
+  } 
+
+  .header { 
+    padding-top: 32px; 
+    border-bottom: none; 
+    padding-bottom: 0px; 
+    }
+  
   .top__title {
-    max-width: 343px;
+    max-width: 343px; 
+    font-size: 48px; 
+    line-height: 59px; 
+    text-align: center;  
+    margin-top: 82px;
   }
   .for__item_3 {
     background-size: cover;
