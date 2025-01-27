@@ -1149,7 +1149,7 @@ a {
     }
   
   .top__title {
-    max-width: 343px; 
+    min-width: 343px; 
     font-size: 48px; 
     line-height: 59px; 
     text-align: center;  
