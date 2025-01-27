@@ -7,7 +7,7 @@
     .header { 
         padding-top: 32px; 
         border-bottom: none; 
-        padding bottom: 0px; 
+        padding-bottom: 0px; 
         
         &__input {
             display: none;
@@ -64,7 +64,8 @@
      
     .for {
     grid-template-columns: repeat(4, 1fr); 
-    gap: 16px;   
+    gap: 16px; 
+
        &__item {
         grid-column: 1/-1; 
         height: 375px; 
@@ -96,7 +97,11 @@
         &__form-subtotal {
             align-content: flex-start; 
             padding-left: 55px;
-        } 
+        }  
+
+        &__item {
+            padding-top: 18px;
+        }
          
         &__img {
             display: none;
@@ -132,12 +137,7 @@
             margin-bottom: 16px; 
             font-size: 12px; 
             line-height: 15px;   
-        } 
-
-         &__form-title { 
-            align-items: flex-start; 
-            padding-left: 45px;
-         }
+        }  
     }
      
     .product { 
@@ -186,6 +186,7 @@
     .filtering-form {
     flex-direction: row; 
     flex-wrap: wrap; 
+
        &__content-wrapper {
        display: flex;
        flex-direction: row;
@@ -206,7 +207,8 @@
     }
      
     .footer { 
-    padding-bottom: 32px;
+    padding-bottom: 32px; 
+
         &__content {
         justify-content: center; 
         gap: 34px;
@@ -239,17 +241,17 @@
     .center {
         padding-left: 16px; 
         padding-right: 16px;
-    } 
-
+    }  
+      
     .header { 
         padding-top: 32px; 
         border-bottom: none; 
-        padding bottom: 0px; 
+        padding-bottom: 0px; 
     }
      
     .top__title {
-        max-width: 343px; 
-         font-size: 48px; 
+        min-width: 343px; 
+        font-size: 48px; 
         line-height: 59px; 
         text-align: center;  
         margin-top: 82px;
