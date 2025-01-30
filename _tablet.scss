@@ -24,21 +24,14 @@
       }   
       
     .filtering-form { 
-    position: unset;
     display: flex;
     flex-direction: column;
     gap: 36px;
     background-color: #fff;
     box-shadow: 0 4px 67px -12px rgb(0 0 0 / 32%);
-    padding: 40px 48px;
-    } 
-
-    .filter-wrapper {
-    display: grid;
-    justify-content: space-around; 
-    padding-top: 10px; 
-    padding-left: 100px;
-    }   
+    padding: 40px 48px; 
+    right: -230px;
+    }    
 
      .bascet { 
       gap: 64px 32px;
@@ -50,7 +43,7 @@
     border-radius: 20px;
     background: rgb(247, 246, 246);
     height: 556px;
-    grid-column: span 6;    
+    grid-column: span 6; 
      
        &-subtotal {
         display: flex;
@@ -94,21 +87,14 @@
       }
      
     .filtering-form { 
-      position: unset;
       display: flex;
       flex-direction: column;
       gap: 36px;
       background-color: #fff;
       box-shadow: 0 4px 67px -12px rgb(0 0 0 / 32%);
-      padding: 40px 48px;
+      padding: 40px 48px; 
+      right: -255px;
     }
-
-    .filter-wrapper {
-      display: grid;
-      justify-content: space-around; 
-      padding-top: 10px; 
-      padding-left: 100px;
-    } 
 
     .bascet__content {
       grid-column: span 12;
@@ -124,7 +110,11 @@
         display: flex; 
         flex-direction: row;
         padding-left: 40px;
-      } 
+      }  
+       
+      &-input {
+        margin-left: 27px;
+      }
 
       &-subtotal {
         display: flex; 
@@ -146,5 +136,4 @@
       .bottom-box {
         padding-top: 39px;
       }
-    }
     }
