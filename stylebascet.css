@@ -19,7 +19,7 @@ a {
 }
 
 .top {
-  background-image: url(topbascet.jpg);
+  background-image: url(img.bascet/topbascet.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -31,9 +31,7 @@ a {
   font-size: 64px;
   line-height: 70px;
   color: #fff;
-  margin-top: 128px;
-  margin-bottom: 126px;
-  align-self: left;
+  margin-top: 127px;
 }
 
 .header {
@@ -199,7 +197,7 @@ a {
   background: rgb(247, 246, 246);
   border: transparent;
   padding-right: 10px;
-  background-image: url(vector.svg), url(frame.svg);
+  background-image: url(img.bascet/vector.svg), url(img.bascet/frame.svg);
   background-position: right 15px top 15px, right 10px bottom 10px;
   background-repeat: no-repeat;
 }
@@ -282,7 +280,7 @@ a {
   justify-content: space-between;
   margin-top: 35px;
   margin-bottom: 64px;
-  margin-left: 27px;
+  margin-left: 43px;
 }
 .bascet__form-item {
   font-family: "Montserrat", sans-serif;
@@ -686,19 +684,13 @@ a {
     padding-top: 20px;
   }
   .filtering-form {
-    position: unset;
     display: flex;
     flex-direction: column;
     gap: 36px;
     background-color: #fff;
     box-shadow: 0 4px 67px -12px rgba(0, 0, 0, 0.32);
     padding: 40px 48px;
-  }
-  .filter-wrapper {
-    display: grid;
-    justify-content: space-around;
-    padding-top: 10px;
-    padding-left: 100px;
+    right: -230px;
   }
   .bascet {
     gap: 64px 32px;
@@ -744,19 +736,13 @@ a {
     padding-top: 20px;
   }
   .filtering-form {
-    position: unset;
     display: flex;
     flex-direction: column;
     gap: 36px;
     background-color: #fff;
     box-shadow: 0 4px 67px -12px rgba(0, 0, 0, 0.32);
     padding: 40px 48px;
-  }
-  .filter-wrapper {
-    display: grid;
-    justify-content: space-around;
-    padding-top: 10px;
-    padding-left: 100px;
+    right: -255px;
   }
   .bascet__content {
     grid-column: span 12;
@@ -771,6 +757,9 @@ a {
     display: flex;
     flex-direction: row;
     padding-left: 40px;
+  }
+  .bascet__form-input {
+    margin-left: 27px;
   }
   .bascet__form-subtotal {
     display: flex;
@@ -860,12 +849,20 @@ a {
     height: 556px;
     grid-column: span 12;
   }
-  .bascet__button-right {
-    margin-left: 30px;
+  .bascet__form-title {
+    width: 343px;
+  }
+  .bascet__form-input {
+    margin-top: 35px;
+    margin-left: 27px;
+    margin-right: 28px;
+    margin-bottom: 64px;
   }
   .bascet__form-subtotal {
-    align-content: flex-start;
-    padding-left: 55px;
+    width: 343px;
+  }
+  .bascet__button-right {
+    margin-left: 30px;
   }
   .bascet__item {
     padding-top: 18px;
@@ -930,12 +927,18 @@ a {
     font-size: 18px;
     line-height: 22px;
   }
+  .product__form-title {
+    width: 343px;
+  }
   .container {
     padding-top: 20px;
   }
   .filtering-form {
     flex-direction: row;
     flex-wrap: wrap;
+    width: 286.5px;
+    position: absolute;
+    left: -18px;
   }
   .filtering-form__content-wrapper {
     display: flex;
