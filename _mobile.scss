@@ -87,17 +87,29 @@
             border-radius: 20px;
             background: rgb(247, 246, 246);
             height: 556px;
-            grid-column: span 12;
+            grid-column: span 12; 
+             
+            &-title {
+                width: 343px;
+            } 
+
+            &-input {
+                margin-top: 35px; 
+                margin-left: 27px; 
+                margin-right: 28px; 
+                margin-bottom: 64px;
+            } 
+            
+            &-subtotal {
+                width: 343px;
+            }
+
         } 
          
         &__button-right {
             margin-left: 30px;
         } 
-         
-        &__form-subtotal {
-            align-content: flex-start; 
-            padding-left: 55px;
-        }  
+           
 
         &__item {
             padding-top: 18px;
@@ -176,6 +188,12 @@
          font-size: 18px; 
          line-height: 22px;  
          }
+        } 
+         
+        &__form { 
+            &-title {
+                width: 343px;
+            }
         }
     }  
 
@@ -185,7 +203,10 @@
      
     .filtering-form {
     flex-direction: row; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;  
+    width: 286.5px;
+    position: absolute;
+    left: -18px;
 
        &__content-wrapper {
        display: flex;
@@ -342,4 +363,4 @@
            min-width: 190.5px;  
            }
         } 
-    }   
+    }  
