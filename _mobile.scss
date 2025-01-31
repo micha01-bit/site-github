@@ -201,12 +201,13 @@
     padding-top: 20px;
     }
      
-    .filtering-form {
+    .filtering-form { 
+    display: flex;
     flex-direction: row; 
     flex-wrap: wrap;  
     width: 286.5px;
     position: absolute;
-    left: -18px;
+    left: 0;
 
        &__content-wrapper {
        display: flex;
@@ -352,8 +353,12 @@
         }
          
         .filtering-form {
+        display: flex;
         flex-direction: row; 
-        flex-wrap: wrap; 
+        flex-wrap: wrap;  
+        width: 286.5px; 
+        left: 0; 
+            
            &__content-wrapper {
            display: flex;
            flex-direction: row;
