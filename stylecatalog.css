@@ -225,19 +225,16 @@ a {
 }
 
 /*Контейнер*/
-.container {
+.container { 
+  position: relative;
   display: flex;
   padding-top: 15px;
-  padding-bottom: 40px;
   justify-content: flex-end;
 }
 
 /*Обертка для кнопки фильтрации*/
 .filter-wrapper {
-  position: relative;
   width: 100%;
-  display: flex;
-  justify-content: flex-end;
 }
 
 /*Форма фильтрации*/
